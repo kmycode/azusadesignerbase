@@ -1,0 +1,10 @@
+# AzusaDesignerBase
+AzusaDesignerの公式プラグイン制作プロジェクトです。  
+AzusaDesigner本体のソースコードではないので注意して下さい。本体のソースは非公開です。
+
+AzusaDesignerのプラグインを開発するためのSDKは、別のリポジトリにあります。  
+https://github.com/kmycode/azusadesignersdk
+
+AzusaDesignerBaseは、こちらの開発の便宜上、SDKを含めていません。
+AzusaDesignerBaseをビルドするためには、別途SDKが必要です。
+AzusaDesignerBaseフォルダとAzusaDesignerSDKフォルダが、同一ディレクトリ上に兄弟要素として存在する必要があります。
