@@ -9,7 +9,11 @@ class PluginMain : public IPluginMain
 public:
 	PluginMain();
 	void initialize();
+	PluginInformation* pluginInformation();
 	void setGlobalManager(IGlobalManager* globalManager);
+
+private:
+	PluginInformation m_pluginInformation;
 };
 
 #endif // PLUGINMAIN_H

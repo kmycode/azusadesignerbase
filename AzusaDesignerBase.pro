@@ -11,12 +11,16 @@ TEMPLATE = lib
 
 DEFINES += AZUSADESIGNERBASE_LIBRARY
 
+INCLUDEPATH += C:\Users\KMY\Music\Qt\AzusaDesignerProjects\AzusaDesignerSDK
+
 SOURCES += \
-    PluginMain.cpp
+    PluginMain.cpp \
+    action/VersionAction/VersionAction.cpp
 
 HEADERS +=\
         azusadesignerbase_global.h \
-    PluginMain.h
+    PluginMain.h \
+    action/VersionAction/VersionAction.h
 
 unix {
     target.path = /usr/lib
